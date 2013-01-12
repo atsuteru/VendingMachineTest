@@ -1,3 +1,6 @@
+/*
+ * 外部jar spock-core-0.6-groovy-1.8.jar をインポートしてください。
+ */
 package my.groovy;
 
 import static org.hamcrest.core.Is.is
@@ -20,7 +23,7 @@ class VendingMachineSpockTest extends Specification {
 		
 		where:
 		insertMoney	|payBackMoney
-		1			|1
+		1				|1
 		5000		|5000
 		10			|0
 	}
